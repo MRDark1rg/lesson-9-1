@@ -1,0 +1,88 @@
+/*
+es qvemota aris erti magaliti... 
+
+@media (max-width: 800px) {
+     .left-block{
+        width: 150px;
+        height: 150px;
+        background-color: brown;
+    }
+
+    .right-block{
+        width: 150px;
+        height: 150px;
+        background-color: rgb(62, 228, 29);
+    }
+    .container {
+        background-color: aqua;
+    }
+
+   
+
+}
+
+@media (max-width: 480px) {
+    .right-block{
+        display: none;
+    }
+}
+@media (max-width: 320px){
+    .right-block{
+        display: block;
+    }
+} */
+
+/* axla viwyebt blokebis dabla chamogdebas */
+/* 
+@media (max-width: 950px) {
+    .wraper {
+        flex-direction: column;
+        align-items: center;  
+        /* es mivutite mshobels radgan mis shignit arsebuli shvili divebi gaushvas centrshi vertikalurad (shvebulad) */
+    
+
+    /* .center{
+        margin-top: 50px;
+        margin-bottom: 50px;
+}
+
+meore nairi chamogdeba weria dabla */
+
+@media (max-width: 600px) {
+    .wraper{
+        /* flex-wrap: wrap; */
+        justify-content: center;
+    }
+    .center{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    
+}
+}
+/* flex-wrap wrapis dros ar aqv smnishvneloba max widthis gverdit ramdnei px weria, mxolod mashin yris dabla alementebs roca tavad vegar eteva fizikurad elementebi */
+
+
+@media (max-width: 1024px) {
+    .image-block{
+        width: 47%;
+        
+    }
+}
+@media (max-width: 600px) {
+    .image-block{
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    .image-block:nth-child(4){
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .navi {
+        display: none;
+    }
+    .burger-icon{
+        display: block;
+    }
+}
